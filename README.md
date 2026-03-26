@@ -16,7 +16,7 @@ Aplikasi informasi kampus sederhana yang mengintegrasikan Navigation Component, 
 * **Tampilan UI:** Dimodifikasi dengan MaterialCardView untuk sudut melengkung dan tema warna hijau.
   
 ## Screenshots
-![Beranda](Screenshots/Beranda.png)
-![Profile](Screenshots/Profile.png)
-![Detail](Screenshots/Detail.png)
-![Jadwal](Screenshots/Jadwal.png)
+![Beranda](Screenshot/Beranda.png)
+![Profile](Screenshot/Profile.png)
+![Detail](Screenshot/Detail.png)
+![Jadwal](Screenshot/Jadwal.png)
