@@ -10,7 +10,6 @@ import com.zaky.campusinfo.databinding.ItemAnnouncementBinding
 class AnnouncementAdapter(private val onItemClick: (Int) -> Unit) :
     ListAdapter<Announcement, AnnouncementAdapter.ViewHolder>(DiffCallback) {
 
-    // Implementasi DiffUtil.ItemCallback
     companion object DiffCallback : DiffUtil.ItemCallback<Announcement>() {
         override fun areItemsTheSame(oldItem: Announcement, newItem: Announcement): Boolean {
             return oldItem.id == newItem.id
@@ -24,12 +23,10 @@ class AnnouncementAdapter(private val onItemClick: (Int) -> Unit) :
     class ViewHolder(private val binding: ItemAnnouncementBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(announcement: Announcement, onItemClick: (Int) -> Unit) {
-            // Menampilkan judul pengumuman, tanggal, dan kategori [cite: 24]
             binding.tvTitle.text = announcement.title
             binding.tvDate.text = announcement.date
             binding.tvCategory.text = announcement.category
 
-            // Implementasikan item click listener menggunakan lambda [cite: 24]
             binding.root.setOnClickListener {
                 onItemClick(announcement.id)
             }

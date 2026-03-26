@@ -3,7 +3,6 @@ package com.zaky.campusinfo
 import androidx.lifecycle.ViewModel
 
 class HomeViewModel : ViewModel() {
-    // Menyediakan data pengumuman (minimal 5 data statis)
     val announcements = listOf(
         Announcement(1, "Libur Idul Fitri 1446 H", "25 Mar 2026", "Akademik", "Pemberitahuan libur hari raya Idul Fitri untuk seluruh civitas akademika Universitas Pertamina."),
         Announcement(2, "Rapat Koordinasi Divisi Informasi & Publikasi HMIK", "26 Mar 2026", "Organisasi", "Diharapkan kehadiran seluruh anggota divisi untuk membahas timeline proker bulan depan."),
