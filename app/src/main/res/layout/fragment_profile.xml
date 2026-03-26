@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".ProfileFragment">
+
+    <ImageView
+        android:id="@+id/ivProfilePhoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muhammad Abiyyu Zaky"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvProfileNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="105223017"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvProfileMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ilmu Komputer - Universitas Pertamina"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
